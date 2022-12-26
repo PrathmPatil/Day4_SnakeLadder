@@ -1,4 +1,5 @@
 package com.snakeandladder;
+import java.util.Random;
 
 public class SnakeAndLadder {
 
@@ -8,7 +9,9 @@ public class SnakeAndLadder {
            int start=0;
            int player1;
            System.out.println("Start position of player is "+start);
-
+           Random random= new Random ();
+        	   int dice=random.nextInt(5+1)+1; //((max-min)+1)+min;
+               System.out.println(dice);          
 	}
 
 }
