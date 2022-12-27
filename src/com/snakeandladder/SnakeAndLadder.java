@@ -49,6 +49,9 @@ public class SnakeAndLadder {
                        {
                     	   player1=player1-12;
                        }
+            		   /*
+            		    * Exact Position 100 otherwise stay on current position
+            		    */
                        else
                        {    player1=player1+dice;
                     	   if(player1>100)
