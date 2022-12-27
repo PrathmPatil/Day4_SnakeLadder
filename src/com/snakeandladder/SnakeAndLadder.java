@@ -7,6 +7,7 @@ public class SnakeAndLadder {
            System.out.println("Welcome in SnakeAndLadder Game");
            System.out.println();
            int start=0;
+           int dicerole=0;
            int player1=0;
            System.out.println("Start position of player is "+start);
            Random random= new Random ();
@@ -64,10 +65,12 @@ public class SnakeAndLadder {
                     	   }
                     	   
                 		   System.out.println(player1);
+                		   dicerole++;
                        }
             	   }  
                    
                }
+               System.out.println(dicerole+" Times Dice are role");
                System.out.println("end "+i);
                player1=0;
                System.out.println("****************************");
